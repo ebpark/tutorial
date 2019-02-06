@@ -1,0 +1,177 @@
+body {
+	margin: 100px;
+}
+
+.outline {
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.flag {
+	float: left;
+	margin: 30px;
+}
+
+/* this is where all of your CSS styles go */
+
+#b_left {
+	width: 200px;
+	height: 400px;
+	background: black;
+	float: left;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+
+}
+
+#b_left:hover {
+	background: red;
+	width: 0px;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+
+}
+
+#b_center {
+	width: 200px;
+	height: 400px;
+	background: #fae042;
+	float: left;
+	position: relative;
+	top: 0px;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+}
+
+#b_center:hover {
+	top: -400px;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+}
+
+#b_right {
+	width: 200px;
+	height: 400px;
+	background: #ff3333;
+	float: left;
+	position: relative;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+}
+
+#b_right:hover {
+	left: -200px;
+	background-color: orange;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+}
+
+#b_background {
+	background: #04bedf;
+}
+
+#b_yellow {
+	width: 600px;
+	height: 140px;
+	background: #fae042;
+	position: relative;
+	top: 130px;
+}
+
+#b_black {
+	width: 0;
+	height: 0;
+	border-top: 200px solid transparent;
+	border-left: 250px solid black;
+	border-bottom: 200px solid transparent;
+	position: relative;
+	top: -140px;
+}
+
+#b_tanzania {
+	background: #00a3dd;
+}
+
+#t_green {
+	width: 0;
+	height: 0;
+	border-top: 400px solid #1eb53a;
+	border-right: 600px solid transparent;
+}
+
+#t_yellow {
+	width: 150px;
+	height: 800px;
+	background: #fcd116;
+	position: relative;
+	left: 220px;
+	top: -590px;
+
+	-webkit-transform: rotate(53deg);
+	-moz-transform: rotate(53deg);
+	-ms-transform: rotate(53deg);
+
+}
+
+#t_black {
+	width: 100px;
+	height: 800px;
+	background: black;
+	position: relative;
+	left: 26px;
+}
+
+#s_blue {
+	width: 0;
+	height: 0;
+	border-top: 400px solid #003f87;
+	border-right: 180px solid transparent;
+	float: left;
+}
+
+#s_yellow {
+	width: 0;
+	height: 0;
+	border-top: 550px solid #fcd856;
+	border-right: 180px solid transparent;
+	float: left;
+	position: relative;
+	left: -80px;
+	top: -90px;
+	opacity: 1;
+
+	-webkit-transform: rotate(23deg);
+	-moz-transform: rotate(23deg);
+	-ms-transform: rotate(23deg);
+}
+
+#s_red {
+	width: 0;
+	height: 0;
+	border-top: 750px solid #d62828;
+	border-right: 280px solid transparent;
+	float: left;
+	display: block;
+	position: relative;
+	left: 212px;
+	top: -716px;
+	opacity: 1;
+
+	-webkit-transform: rotate(41deg);
+	-moz-transform: rotate(41deg);
+	-ms-transform: rotate(41deg);
+}
+
+#s_green {
+	width: 0;
+	height: 0;
+	border-bottom: 160px solid #007a3d;
+	border-left: 600px solid transparent;
+	float: left;
+	display: block;
+	position: relative;
+	left: 0px;
+	top: -1060px;
+}
